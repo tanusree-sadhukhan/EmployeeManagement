@@ -2,7 +2,7 @@
 
 
 
-A web-based Employee Management Portal.
+An Employee Management REST API built using Python and Flask.
 
 
 
