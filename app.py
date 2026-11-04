@@ -8,3 +8,9 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+employees = []
+
+@app.route("/register/<name>")
+def register(name):
+    employees.append(name)
+    return f"Employee {name} registered successfully"
