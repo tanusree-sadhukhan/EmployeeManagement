@@ -4,7 +4,7 @@
 
 An Employee Management REST API built using Python and Flask.
 
-
+An Employee Management GraphQL API built using Python and Flask.
 
 \## Features
 
