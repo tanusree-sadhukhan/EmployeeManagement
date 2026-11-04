@@ -8,3 +8,8 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+@app.route("/search/<name>")
+def search(name):
+    if name in employees:
+        return f"Employee {name} found"
+    return "Employee not found"
