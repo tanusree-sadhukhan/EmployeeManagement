@@ -2,9 +2,7 @@
 
 
 
-A web-based Employee Management Portal.
-
-
+An Employee Management GraphQL API built using Python and Flask.
 
 \## Features
 
